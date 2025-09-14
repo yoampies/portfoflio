@@ -68,13 +68,15 @@ function ProjectDetails() {
             {/* Section for action buttons (Live Demo, GitHub) */}
             <div className="flex flex-wrap justify-center gap-6 pt-6">
               {/* Button for Live Demo - styled with primary color */}
-              <button className="flex min-w-[180px] items-center justify-center rounded-full h-14 px-8 bg-[var(--primary-color)] text-[var(--text-primary)] text-lg font-bold tracking-wide shadow-lg hover:bg-[var(--accent-color)] hover:-translate-y-1 transition-all duration-300 ease-in-out">
+              <a className="flex min-w-[180px] items-center justify-center rounded-full h-14 px-8 bg-[var(--primary-color)] text-[var(--text-primary)] text-lg font-bold tracking-wide shadow-lg hover:bg-[var(--accent-color)] hover:-translate-y-1 transition-all duration-300 ease-in-out"
+                 href={project.demoURL}>
                 <span>Live Demo</span>
-              </button>
+              </a>
               {/* Button for GitHub Repository - styled with transparent background and border */}
-              <button className="flex min-w-[180px] items-center justify-center rounded-full h-14 px-8 bg-transparent border-2 border-[var(--primary-color)] text-[var(--primary-color)] text-lg font-bold tracking-wide hover:bg-[var(--primary-color)] hover:text-white transition-colors duration-300 ease-in-out">
+              <a className="flex min-w-[180px] items-center justify-center rounded-full h-14 px-8 bg-transparent border-2 border-[var(--primary-color)] text-[var(--primary-color)] text-lg font-bold tracking-wide hover:bg-[var(--primary-color)] hover:text-white transition-colors duration-300 ease-in-out"
+                 href={project.githubURL}>
                 <span>GitHub Repository</span>
-              </button>
+              </a>
             </div>
           </div>
         </main>
