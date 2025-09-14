@@ -16,13 +16,13 @@ Welcome to my personal portfolio, a showcase of my skills as a frontend develope
 
 ## 🚀 Live Demo
 
-View the portfolio online: [Link to Live Demo](URL_TO_YOUR_DEMO)
+View the portfolio online: [Link to Live Demo](https://portfoflio-ten.vercel.app/)
 
 ---
 
 ## 📄 Download Resume
 
-Download my resume here: [Download Resume](URL_TO_YOUR_RESUME.pdf)
+Download my resume here: [Download Resume](/public/resume.pdf)
 
 ---
 
