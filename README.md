@@ -44,10 +44,10 @@ This project was built using a modern frontend stack to ensure speed, scalabilit
 
 | Project                              | Description                                                                         | Live Demo | Source Code |
 | :----------------------------------- | :---------------------------------------------------------------------------------- | :-------- | :---------- |
-| AI-Powered Parasite Detection        | Simulates parasite detection with Web Workers, 3D models, and D3.js charts.        | [Live](URL_TO_PROJECT_DEMO) | [GitHub](URL_TO_PROJECT_GITHUB) |
-| Interactive Astrology App            | A tarot and astrology app featuring engaging 3D animations.                         | [Live](URL_TO_PROJECT_DEMO) | [GitHub](URL_TO_PROJECT_GITHUB) |
-| AI Study Tool                        | A tool that simulates AI-generated study content from text, PDFs, and audio.        | [Live](URL_TO_PROJECT_DEMO) | [GitHub](URL_TO_PROJECT_GITHUB) |
-| Psychology Website                   | A responsive informational website featuring impressive scrollytelling animations. | [Live](URL_TO_PROJECT_DEMO) | [GitHub](URL_TO_PROJECT_GITHUB) |
+| AI-Powered Parasite Detection        | Simulates parasite detection with Web Workers, 3D models, and D3.js charts.        | [Live](https://parasaite.vercel.app/) | [GitHub](https://github.com/yoampies/parasaite) |
+| Interactive Astrology App            | A tarot and astrology app featuring engaging 3D animations.                         | [Live](https://gabo-astral.vercel.app/) | [GitHub](https://github.com/yoampies/gabo-astral) |
+| AI Study Tool                        | A tool that simulates AI-generated study content from text, PDFs, and audio.        | [Live](https://studyai-drab.vercel.app/) | [GitHub](https://github.com/yoampies/studyai) |
+| Psychology Website                   | A responsive informational website featuring impressive scrollytelling animations. | [Live](https://jose-nine-ashy.vercel.app/) | [GitHub](https://github.com/yoampies/jose) |
 
 ---
 
