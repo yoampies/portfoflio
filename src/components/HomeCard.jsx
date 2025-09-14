@@ -1,6 +1,6 @@
 import React from 'react';
 // Import the Link component from react-router-dom. This component is used for client-side navigation
-// without full page reloads, enabling seamless transitions between different pages in your application.
+// without full page reloads, enabling seamless transitions between different pages in the application.
 import { Link } from 'react-router-dom';
 
 /**

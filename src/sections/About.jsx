@@ -37,7 +37,7 @@ function About() { // Defines the 'About' functional component.
                 <img
                   alt="Sophia Carter Profile Picture" // Alt text for accessibility.
                   className="rounded-full h-48 w-48 object-cover border-4 border-white shadow-lg" // Styling for the image: rounded corners, fixed size, cover aspect ratio, border, and shadow.
-                  src="../headshot.png" // The source path for the profile image. Note: This relative path might need adjustment depending on your project structure.
+                  src="../headshot.png" // The source path for the profile image. 
                 />
               </div>
               <div className="text-center md:text-left"> {/* Container for the text content. */}

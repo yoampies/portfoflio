@@ -5,7 +5,7 @@ import { useForm } from '@formspree/react'; // Import the useForm hook from Form
 import { Link } from 'react-router-dom'; // Import the Link component for client-side navigation.
 
 function Contact() {
-  // Initialize Formspree form hook. It requires your Formspree backend URL (or environment variable).
+  // Initialize Formspree form hook. It requires Formspree backend URL (or environment variable).
   // `state` contains submission status and errors, `handleSubmit` is the function to call on form submission.
   const [state, handleSubmit] = useForm(import.meta.env.VITE_FORMSPREE_KEY);
 
