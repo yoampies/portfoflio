@@ -69,7 +69,9 @@ function ProjectDetails() {
             <div className="flex flex-wrap justify-center gap-6 pt-6">
               {/* Button for Live Demo - styled with primary color */}
               <a className="flex min-w-[180px] items-center justify-center rounded-full h-14 px-8 bg-[var(--primary-color)] text-[var(--text-primary)] text-lg font-bold tracking-wide shadow-lg hover:bg-[var(--accent-color)] hover:-translate-y-1 transition-all duration-300 ease-in-out"
-                 href={project.demoURL}>
+                 href={project.demoURL}
+                 target='_blank'
+                 rel='noopener noreferrer'>
                 <span>Live Demo</span>
               </a>
               {/* Button for GitHub Repository - styled with transparent background and border */}
