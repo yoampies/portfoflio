@@ -32,6 +32,21 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Interactive Astrology App",
+    description: "A React app with 3D animations and visuals for astrology and tarot services.",
+    imgURL: gabo_astral,
+    longDescription: "I developed an interactive application for astrology and tarot services. The app was built with React and Tailwind CSS, and integrates React Three Fiber for an immersive 3D experience. It includes a main animation where users can select tarot cards to ask questions, with detailed explanations of their meanings. The interface is designed to present the astrologer's and tarot reader's services in a clear and appealing way.",
+    demoURL: "https://gabo-astral.vercel.app",
+    githubURL: "https://github.com/yoampies/gabo_astral",
+    techStack: {
+      'React': FaReact,
+      'Tailwind CSS': RiTailwindCssFill,
+      'Git': FaGithub,
+      'React Three Fiber': MdViewInAr,
+    }
+  },
+  {
+    id: 3,
     title: "AI Study Tool for Students",
     description: "An application that simulates generating summaries, quizzes, and flashcards from text, PDFs, and audio.",
     imgURL: studyai,
@@ -44,21 +59,6 @@ export const projects = [
       'localStorage': MdOutlineSdStorage,
       'Git': FaGithub,
       'GSAP': MdAnimation,
-      'React Three Fiber': MdViewInAr,
-    }
-  },
-  {
-    id: 3,
-    title: "Interactive Astrology App",
-    description: "A React app with 3D animations and visuals for astrology and tarot services.",
-    imgURL: gabo_astral,
-    longDescription: "I developed an interactive application for astrology and tarot services. The app was built with React and Tailwind CSS, and integrates React Three Fiber for an immersive 3D experience. It includes a main animation where users can select tarot cards to ask questions, with detailed explanations of their meanings. The interface is designed to present the astrologer's and tarot reader's services in a clear and appealing way.",
-    demoURL: "https://gabo-astral.vercel.app",
-    githubURL: "https://github.com/yoampies/gabo_astral",
-    techStack: {
-      'React': FaReact,
-      'Tailwind CSS': RiTailwindCssFill,
-      'Git': FaGithub,
       'React Three Fiber': MdViewInAr,
     }
   },
