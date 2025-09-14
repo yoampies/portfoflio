@@ -204,8 +204,12 @@ function Home() {
 
         {/* Projects Section */}
         <section ref={projectsRef} className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50" id="projects"> {/* Section to display projects */}
-          <h2 className="text-5xl font-bold text-center mb-12 hand-drawn text-[#C1E1C1]">My Projects</h2> {/* Section title */}
+          <h2 className="text-5xl font-bold text-center mb-8 hand-drawn text-[#C1E1C1]">My Projects</h2> {/* Section title */}
           {/* Grid layout for project cards */}
+          <p className="text-lg text-[var(--text-secondary)] text-center mb-12 max-w-2xl mx-auto">
+            For a better experience view these models on a laptop or desktop devide, since the mobile
+            versions are still in development.
+          </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
             {/* Mapping over the 'projects' array to render a HomeCard for each project */}
             {projects.map((p) => (

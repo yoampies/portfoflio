@@ -32,11 +32,11 @@ function Projects() {
           {/* Container for centering content and setting max width */}
           <div className="mx-auto max-w-7xl">
             {/* Section for the page title and description */}
-            <div className="mb-16 text-center">
+            <div className="mb-1 text-center">
               {/* Page title */}
               <h2 className="text-4xl font-bold leading-tight text-[var(--text-primary)] md:text-5xl">My Creative Work</h2>
               {/* Page description */}
-              <p className="mx-auto mt-4 max-w-2xl text-lg text-[var(--text-secondary)]">A selection of my best work, showcasing my skills and experience in frontend development.</p>
+              <p className="mx-auto mt-4 max-w-2xl text-lg text-[var(--text-secondary)]">A selection of my best work, showcasing my skills and experience in frontend development. For a better experience view these models on a laptop or desktop devide, since the mobile versions are still in development.</p>
             </div>
             {/* Container for centering the project cards */}
             <div className="flex justify-center mx-10">

@@ -1,6 +1,6 @@
 # Andrés Ampíes: Personal Portfolio
 
-Welcome to my personal portfolio, a showcase of my skills as a frontend developer. This site is designed to be an **interactive experience**, featuring **creative coding**, **playful animations**, and **immersive 3D visuals** to highlight my work.
+Welcome to my personal portfolio, a showcase of my skills as a frontend developer. This site is designed to be an **interactive experience**, featuring **creative coding**, **playful animations**, and **immersive 3D visuals** to highlight my work. The mobile version is being built.
 
 ---
 
