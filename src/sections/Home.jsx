@@ -166,7 +166,7 @@ function Home() {
             </h1>
             {/* Subheading providing a brief description */}
             <p className="text-xl mt-10 md:text-2xl font-light max-w-3xl mx-auto text-white/90">
-              A frontend developer who builds colorful, playful, and engaging web experiences with 3D models and animations.
+              A web developer who builds colorful, playful, and engaging web experiences with 3D models and animations.
             </p>
           </div>
         </section>
@@ -184,7 +184,7 @@ function Home() {
               />
               <div> {/* Container for text content */}
                 <p className="text-lg text-[var(--text-secondary)] max-w-md"> {/* Paragraph describing the developer */}
-                  I'm a passionate frontend developer with a knack for turning complex problems into beautiful, intuitive designs. <br />
+                  I'm a passionate web developer with a knack for turning complex problems into beautiful, intuitive designs. <br />
                 </p>
                 <div className="flex flex-row gap-8 items-center"> {/* Container for skills icons */}
                   <p className="font-semibold py-3"> {/* Label for skills */}
