@@ -1,6 +1,4 @@
 // Import necessary React hooks and components
-import React from 'react'; // Standard React import
-import { Link } from 'react-router-dom'; // For creating navigation links
 import Navbar from '../components/Navbar'; // Importing the Navbar component
 import SkillCard from '../components/SkillCard'; // Importing the SkillCard component to display technologies
 import { useParams } from 'react-router-dom'; // Hook to access URL parameters
@@ -47,24 +45,57 @@ function ProjectDetails() {
             </div>
             {/* Section for the project's overview */}
             <section className="mb-12">
-              {/* Section title */}
               <h2 className="text-3xl font-bold text-[var(--text-primary)] mb-4">Overview</h2>
-              {/* Display the detailed description of the project */}
-              <p className="text-lg text-[var(--text-secondary)] leading-relaxed">
-                {project.longDescription}
-              </p>
-            </section>
-            {/* Section for the technologies used */}
-            <section className="mb-12">
-              <h2 className="text-3xl font-bold text-[var(--text-primary)] mb-6">Technologies Used</h2>
-              {/* Grid layout to display SkillCards */}
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                {/* Map over the project's techStack to render a SkillCard for each technology */}
-                {Object.keys(project.techStack).map((tech) => (
-                  <SkillCard key={tech} title={tech}/>
+              
+              <div className="space-y-4"> {/* Añade espacio entre párrafos */}
+                {project.longDescription.map((paragraph, index) => (
+                  <p 
+                    key={index} 
+                    className="text-lg text-[var(--text-secondary)] leading-relaxed"
+                  >
+                    {paragraph}
+                  </p>
                 ))}
               </div>
             </section>
+            {/* Section for the technologies used */}
+            <section className="mb-12">
+            <h2 className="text-3xl font-bold text-[var(--text-primary)] mb-8">Technical Stack & Expertise</h2>
+
+            {Array.isArray(project.techStack) ? (
+              // RENDERIZADO PARA NIVEL SENIOR (Proyecto 4)
+              <div className="space-y-10">
+                {project.techStack.map((cat, idx) => (
+                  <div key={idx}>
+                    <h3 className="text-xl font-semibold text-[#13ecc8] mb-4 border-l-4 border-[#13ecc8] pl-4">
+                      {cat.category}
+                    </h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                      {cat.items.map((item, itemIdx) => (
+                        <SkillCard 
+                          key={itemIdx} 
+                          title={item.name} 
+                          icon={item.icon} 
+                          description={item.description} 
+                        />
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              // RENDERIZADO SIMPLE (Proyectos 1-3)
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                {Object.keys(project.techStack).map((tech) => (
+                  <SkillCard 
+                    key={tech} 
+                    title={tech} 
+                    icon={project.techStack[tech]} 
+                  />
+                ))}
+              </div>
+            )}
+          </section>
             {/* Section for action buttons (Live Demo, GitHub) */}
             <div className="flex flex-wrap justify-center gap-6 pt-6">
               {/* Button for Live Demo - styled with primary color */}
